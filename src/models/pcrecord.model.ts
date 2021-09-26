@@ -33,6 +33,11 @@ export class Pcrecord extends Entity {
   fixBefore?: string;
 
   @property({
+    type: 'number',
+  })
+  priority?: number;
+
+  @property({
     type: 'string',
   })
   progress?: string;
